@@ -1,0 +1,58 @@
+body {
+  background-color: darkgrey;
+  color: white; }
+
+.navbar {
+  background-color: green;
+  color: white; }
+
+footer {
+  background-color: #333; }
+
+#explore-section .fa, #share-section .fa {
+  color: white;
+  background: #333;
+  padding: 0.9em;
+  border-radius: 0.2em;
+  font-size: 0.9em; }
+
+#explore-head-section, #share-head-section {
+  background-color: #333; }
+
+#connect-head-section {
+  background: linear-gradient(rgba(8, 55, 77, 0.726), rgba(3, 21, 59, 0.63)), url("../img/pexels-photo-1092671.jpeg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 20em; }
+
+#home-section {
+  background: url("../img/pexels-photo-1530313.jpeg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 40em; }
+  #home-section .dark-overlay {
+    background-color: rgba(8, 55, 77, 0.596);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 40em; }
+  #home-section .card-form {
+    opacity: 0.8;
+    background-color: green;
+    border: none;
+    line-height: 1.5em;
+    margin-top: 3em; }
+  #home-section .fa {
+    color: green;
+    background: white;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    font-size: 0.9em; }
+
+#connect-head-section > div > div > div:nth-child(1) > ul {
+  color: #fff;
+  margin-bottom: 3em; }
+
+h1 {
+  padding: 0.8em; }
